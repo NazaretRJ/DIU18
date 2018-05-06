@@ -1,6 +1,6 @@
 /* GENERAL */
 nav {
-    margin-top: -30px;
+    margin-top: -35px;
 }
 
 .JumboHeaderImg{
@@ -8,15 +8,51 @@ nav {
     background-size: cover;
 }
 
+.header {
+    background: linear-gradient(to right, #fa7582 , rgb(255, 187, 109));
+}
+
+h1.display-3 {
+    text-shadow: rgb(87, 66, 66) 2px 2px 3px;
+}
+
+.header p {
+    letter-spacing: 2px;
+    margin-left: 30%;
+}
+
+.right-align {
+    float: right;
+    margin-right: -30%;
+    padding-bottom: -10px;
+    padding-top: 10px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.right-align li.nav-item {
+    margin-right: 14px;
+}
+
+/* Si la pantalla es mas pequeña se ajusta el margen de los elementos
+   del nav de la parte derecha */
+
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    .right-align {
+        margin-right: 0%;
+    }
+}
 
 
 /* PORTADA */
 #evento {
     margin: 15px 15px 15px 15px;
-}
-
-#m_der {
-    float:right;
 }
 
 /* RESULTADOS */
