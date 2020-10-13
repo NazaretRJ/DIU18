@@ -6,4 +6,4 @@
  * Uso de patrones de diseño para componentes.
  * Utilizar herramientas de desarrollo Web. Utilizaremos el entorno Bootstrap como herramienta soporte al diseño (snippet, editores)
  
- Se puede consultar aquí https://nazaretrj.github.io/
+ <!--Se puede consultar aquí https://nazaretrj.github.io/ -->
